@@ -1,0 +1,54 @@
+.header {
+    height: 100px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 80px;
+}
+.header__logo {
+    background-color: #455;
+    color: #fff;
+    font-size: 48px;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+.icon_menu {
+    display: none;
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+    list-style: none;
+    padding: 0 20px;
+}
+.menu__link {
+    color: $second;
+    text-decoration: none;
+    transition: opacity 300ms;
+}
+.menu__link:hover {
+    opacity: .6;
+}
+.btn {
+    background-color: $dark;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 1px;
+    padding: 12px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background, color, 300ms;
+}
+.btn:hover {
+    background-color: $third;
+    color: $black;
+}
